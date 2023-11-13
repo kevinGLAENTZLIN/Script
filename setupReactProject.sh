@@ -7,9 +7,7 @@
 
 
 npx create-react-app $1
-sleep 20
+cd $1
 npm install @mui/material @emotion/react @emotion/styled
-sleep 20
 npm install react-router-dom
-sleep 20
 npm install @mui/icons-material
